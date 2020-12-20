@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Bell - My Portfolio</title>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/favicon-32x32.png" type="image/png">
+
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/ca2b1dfad0.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+
+    <!-- Page Specfic CSS  -->
+    <!-- Currently commented out as not needed for this page. In future if specific styling is needed on the page
+    then create a contact.css file and uncomment the following line. -->
+    <!-- <link rel="stylesheet" href="./assets/css/contact.css"> -->
+
+    <!-- Bootstrap Bundle JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"
+        defer></script>
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">John Bell</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="./index.html">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content box on page  -->
+    <main>
+        <!-- Bootstrap grid -->
+        <div class="container" id="grid">
+
+            <!-- First Row -->
+            <div class="row">
+                <div class="col">
+                    <h1>Contact Me</h1>
+                </div>
+            </div>
+
+            <!-- Break line on page  -->
+            <hr class="solid">
+
+            <!-- Second Row -->
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div class="mb-3 ms-3 me-5">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        </div>
+                        <div class="mb-3 ms-3 me-5">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3 ms-3 me-5">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sticky footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="text-muted">&copy;John Bell 2020</span>
+                </div>
+                <div class="col-auto">
+                    <a href="https://www.linkedin.com/in/jdbell123"><span><i
+                                class="fab fa-linkedin fa-3x"></i></span></a>
+                    <a href="https://www.facebook.com/JohnDBell"><span><i
+                                class="fab fa-facebook-square fa-3x"></i></span></a>
+                    <a href="https://twitter.com/jdbell123"><span><i class="fab fa-twitter-square fa-3x"></i></span></a>
+                    <a href="https://wa.me/17064426133"><span><i class="fab fa-whatsapp-square fa-3x"></i></span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
