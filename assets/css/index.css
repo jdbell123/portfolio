@@ -1,4 +1,13 @@
-  #float {
+/*  
+
+CSS file for My Portfolio index.html page. 
+
+Global CSS styles for the website can be found in the "./global.css" file.
+This file will house specific CSS styles for the index.html page.
+*/
+
+/* Profile Picture CSS Style */
+#float {
       margin-right: 40px;
       float: left;
   }

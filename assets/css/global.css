@@ -1,30 +1,35 @@
+/*  
+
+CSS file for My Portfolio website. 
+
+This file house the global CSS styles for the website.
+If there are specific styles that only affect a specfic page then they will be housed in the specific CSS page for that page.
+
+Strucuture Overview:
+    - GENERAL STYLES
+    - MAIN STYLES (Any elements that fall into the main element)
+    - SOCIAL MEDIA LINK STYLES (Any elements that relate to the Social Media Links in the footer)
+    - MEDIA QUERY STYLES (Any elements that are affected by the device/screen size)
+
+Each section can be found by doing a search on ||
+
+Within each section we define in the following order:
+    - Semantic elements (both generic and specific elements)
+    - Classes
+    - IDs
+*/
+
+/* || GENERAL Styles */
+
 body {
     background-image: url("../images/background.jpg");
     background-attachment: fixed;
 }
 
+/* || MAIN Styles */
+
 main {
   margin: 3%;
-}
-
-.fa-linkedin-square  {
-  color:#fff;
-  color: #0e76a8;
-}
-
-.fa-facebook-square  {
-  color:#fff;
-  color: #4267B2;
-}
-
-.fa-twitter-square  {
-  color:#fff;
-  color: #1DA1F2;
-}
-
-.fa-whatsapp-square  {
-  color:#fff;
-  color: #25d366;
 }
 
 #grid {
@@ -32,6 +37,33 @@ main {
       padding: 20px;
   }
 
+/* || SOCIAL MEDIA LINK STYLES */
+
+/* Linkedin Link Styling */
+.fa-linkedin-square  {
+  color:#fff;
+  color: #0e76a8;
+}
+
+/* Facebook Styling */
+.fa-facebook-square  {
+  color:#fff;
+  color: #4267B2;
+}
+
+/* Twitter Link Styling */
+.fa-twitter-square  {
+  color:#fff;
+  color: #1DA1F2;
+}
+
+/* WhatsApp Link Styling */
+.fa-whatsapp-square  {
+  color:#fff;
+  color: #25d366;
+}
+
+/* || MEDIA QUERY STYLES */
 @media (min-width: 576px) {
   main {
     width: 60%;
