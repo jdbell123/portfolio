@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+    url('https://mdn.mozillademos.org/files/7693/catfront.png');
+}
+
+main {
+  margin: 3%;
+}
+
+.fa-linkedin-square  {
+  color:#fff;
+  color: #0e76a8;
+}
+
+.fa-facebook-square  {
+  color:#fff;
+  color: #4267B2;
+}
+
+.fa-twitter-square  {
+  color:#fff;
+  color: #1DA1F2;
+}
+
+.fa-whatsapp-square  {
+  color:#fff;
+  color: #25d366;
+}
+
+#grid {
+      background-color: rgb(218, 226, 226);
+      padding: 20px;
+  }
+
+@media (min-width: 576px) {
+  main {
+    width: 60%;
+  }
+}
