@@ -103,17 +103,17 @@ Here are screenshots of the entire website.
 
 About Me Page (index.html)
 
-![About Me Page](./assets/images/???????.png "About Me Page")
+![About Me Page](./assets/images/aboutme.png "About Me Page")
 
 
 Contact Me Page (contact.html)
 
-![Contact Me Page](./assets/images/???????.png "Contact Me Page")
+![Contact Me Page](./assets/images/contact.png "Contact Me Page")
 
 
 Portfolio Page (portfolio.html)
 
-![Portfolio Page](./assets/images/???????.png "Portfolio Page")
+![Portfolio Page](./assets/images/portfolio.png "Portfolio Page")
 
 
 ---
