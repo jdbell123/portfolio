@@ -1,0 +1,13 @@
+/*  
+
+CSS file for My Portfolio portfolio.html page. 
+
+Global CSS styles for the website can be found in the "./global.css" file.
+This file will house specific CSS styles for the portfolio.html page.
+*/
+
+/* Picture CSS Styling */
+.img-size {
+    max-width: 350px;
+    max-height: 350px;
+  }
