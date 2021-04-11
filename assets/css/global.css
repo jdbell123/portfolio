@@ -40,9 +40,15 @@ main {
 /* || SOCIAL MEDIA LINK STYLES */
 
 /* Linkedin Link Styling */
-.fa-linkedin-square  {
+.fa-linkedin  {
   color:#fff;
   color: #0e76a8;
+}
+
+/* GitHub Link Styling */
+.fa-github  {
+  color:#fff;
+  color: #000000;
 }
 
 /* Facebook Styling */
